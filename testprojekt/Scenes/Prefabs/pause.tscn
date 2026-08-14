@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwk1nrpdhsfq0"]
+
+[ext_resource type="Texture2D" uid="uid://couj5x6lwl202" path="res://Bilder/mainMenuBtn.png" id="1_4kagk"]
+[ext_resource type="Script" uid="uid://bjvpkcwaajftl" path="res://Scenes/Prefabs/pause.gd" id="1_nfcsd"]
+[ext_resource type="Script" uid="uid://de8asfh8f5kwr" path="res://scripts/main_menu_btn.gd" id="2_nfcsd"]
+[ext_resource type="Texture2D" uid="uid://cffi0nnjxj61" path="res://Bilder/textures/IceTop.png" id="4_jtf1g"]
+
+[node name="pause" type="Control"]
+visible = false
+z_index = 10
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1800.0
+offset_bottom = 1000.0
+script = ExtResource("1_nfcsd")
+
+[node name="Main Menu" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.375
+anchor_top = 0.355
+anchor_right = 0.545
+anchor_bottom = 0.41
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("1_4kagk")
+flat = true
+script = ExtResource("2_nfcsd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.372549, 0.372549, 0.372549, 0.435294)
+position = Vector2(850, 450)
+scale = Vector2(112.5, 62.5)
+texture = ExtResource("4_jtf1g")
+
+[connection signal="button_down" from="Main Menu" to="Main Menu" method="_on_button_down"]
+[connection signal="mouse_entered" from="Main Menu" to="Main Menu" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Main Menu" to="Main Menu" method="_on_mouse_exited"]

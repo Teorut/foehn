@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://b8pqethyrem8j"]
+
+[ext_resource type="Script" uid="uid://ynl53bcg354a" path="res://player.gd" id="1_nxogm"]
+[ext_resource type="Texture2D" uid="uid://bts1yocclkyxq" path="res://icon.svg" id="2_3253y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_drvgu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nxogm"]
+
+[node name="Scene" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_nxogm")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_3253y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+scale = Vector2(3.135, 3.135)
+shape = SubResource("RectangleShape2D_drvgu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(56, 273)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+scale = Vector2(3.135, 3.135)
+shape = SubResource("RectangleShape2D_nxogm")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+modulate = Color(0, 1, 0, 1)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_3253y")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(49, 132)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+scale = Vector2(3.135, 3.135)
+shape = SubResource("RectangleShape2D_nxogm")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+modulate = Color(1, 0, 1, 1)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_3253y")

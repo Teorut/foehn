@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwmhiv7o6bs5v"]
+
+[ext_resource type="Script" uid="uid://dxgkyeca8fgqg" path="res://scripts/baseBlock.gd" id="1_38ncp"]
+[ext_resource type="Texture2D" uid="uid://drfsfgtnusrvs" path="res://Bilder/textures/water.png" id="2_62b6d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yfy7c"]
+
+[node name="water" type="StaticBody2D"]
+script = ExtResource("1_38ncp")
+isLiquid = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0, 0.949339, 0.901475, 1)
+z_index = -1
+scale = Vector2(2, 2)
+texture = ExtResource("2_62b6d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_yfy7c")

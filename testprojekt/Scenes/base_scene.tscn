@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://bjxe82qqfpi5q"]
+
+[ext_resource type="Texture2D" uid="uid://cue6e5iep7861" path="res://Bilder/FHÖN.png" id="1_mslae"]
+[ext_resource type="Texture2D" uid="uid://1sqmuthhfc4s" path="res://Bilder/startGameBtn.png" id="2_mslae"]
+[ext_resource type="Script" uid="uid://cxr5ri1gcdh38" path="res://scripts/control.gd" id="3_mslae"]
+[ext_resource type="Texture2D" uid="uid://dfppm363ervo6" path="res://Bilder/newGameBtn.png" id="4_6t8sk"]
+
+[node name="baseScene" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(800, 400)
+scale = Vector2(0.84, 0.84)
+texture = ExtResource("1_mslae")
+
+[node name="Control" type="Control" parent="."]
+z_index = 1
+layout_mode = 3
+anchors_preset = 0
+offset_left = 300.0
+offset_top = 300.0
+offset_right = 700.0
+offset_bottom = 500.0
+script = ExtResource("3_mslae")
+
+[node name="startGame" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.5
+anchor_top = 1.3
+anchor_right = 2.5
+anchor_bottom = 2.3
+icon = ExtResource("2_mslae")
+flat = true
+
+[node name="newGame" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.3
+anchor_right = 1.0
+anchor_bottom = 2.3
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("4_6t8sk")
+flat = true
+
+[connection signal="button_down" from="Control/startGame" to="Control" method="_on_start_game_button_down"]
+[connection signal="button_down" from="Control/newGame" to="Control" method="_on_new_game_button_down"]

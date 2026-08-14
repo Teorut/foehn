@@ -1,0 +1,534 @@
+[gd_scene load_steps=7 format=3 uid="uid://b8pqethyrem8j"]
+
+[ext_resource type="Script" uid="uid://ynl53bcg354a" path="res://player.gd" id="1_nxogm"]
+[ext_resource type="Texture2D" uid="uid://bts1yocclkyxq" path="res://icon.svg" id="2_3253y"]
+[ext_resource type="PackedScene" uid="uid://bjjmjv65iy3me" path="res://ground.tscn" id="2_m7jmp"]
+[ext_resource type="PackedScene" uid="uid://bwmhiv7o6bs5v" path="res://water.tscn" id="3_3253y"]
+[ext_resource type="PackedScene" uid="uid://b0ss0mi52354" path="res://ice.tscn" id="4_u3cyc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_drvgu"]
+
+[node name="Scene" type="Node2D"]
+position = Vector2(100, 0)
+
+[node name="Water" type="Node2D" parent="."]
+
+[node name="Water" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(-100, 0)
+
+[node name="Water6" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(500, 800)
+
+[node name="Water7" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(400, 800)
+
+[node name="Water8" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(300, 800)
+
+[node name="Water9" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(200, 800)
+
+[node name="Water10" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(100, 800)
+
+[node name="Water11" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(600, 800)
+
+[node name="Water12" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(700, 800)
+
+[node name="Water13" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1100, 800)
+
+[node name="Water14" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1000, 800)
+
+[node name="Water15" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(900, 800)
+
+[node name="Water16" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(800, 800)
+
+[node name="Water17" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(700, 800)
+
+[node name="Water18" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 800)
+
+[node name="Water19" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 800)
+
+[node name="Water20" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1500, 800)
+
+[node name="Water21" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 800)
+
+[node name="Water22" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 800)
+
+[node name="Water26" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(-100, 800)
+
+[node name="Water27" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(0, 800)
+
+[node name="Water28" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1500, 0)
+
+[node name="Water29" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1500, 100)
+
+[node name="Water30" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1500, 200)
+
+[node name="Water31" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1500, 600)
+
+[node name="Water32" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1500, 700)
+
+[node name="Water33" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(600, 0)
+
+[node name="Water34" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(500, 0)
+
+[node name="Water35" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(400, 0)
+
+[node name="Water36" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(300, 0)
+
+[node name="Water37" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(200, 0)
+
+[node name="Water38" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(700, 0)
+
+[node name="Water39" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(800, 0)
+
+[node name="Water40" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 0)
+
+[node name="Water41" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1100, 0)
+
+[node name="Water42" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1000, 0)
+
+[node name="Water43" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(900, 0)
+
+[node name="Water44" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(800, 0)
+
+[node name="Water45" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 0)
+
+[node name="Water46" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 0)
+
+[node name="Water47" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 0)
+
+[node name="Water48" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(100, 0)
+
+[node name="Water49" parent="Water" instance=ExtResource("3_3253y")]
+
+[node name="Water50" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 100)
+
+[node name="Water51" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 100)
+
+[node name="Water52" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 100)
+
+[node name="Water53" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 200)
+
+[node name="Water54" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 200)
+
+[node name="Water55" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 200)
+
+[node name="Water56" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 200)
+
+[node name="Water57" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 300)
+
+[node name="Water58" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 300)
+
+[node name="Water60" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 400)
+
+[node name="Water61" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 400)
+
+[node name="Water64" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 500)
+
+[node name="Water65" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 500)
+
+[node name="Water67" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 600)
+
+[node name="Water68" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 600)
+
+[node name="Water69" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 600)
+
+[node name="Water70" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 600)
+
+[node name="Water71" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1200, 700)
+
+[node name="Water72" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1300, 700)
+
+[node name="Water73" parent="Water" instance=ExtResource("3_3253y")]
+position = Vector2(1400, 700)
+
+[node name="Ground" type="Node2D" parent="."]
+
+[node name="Ground" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 100)
+
+[node name="Ground2" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 200)
+
+[node name="Ground3" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 300)
+
+[node name="Ground4" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 400)
+
+[node name="Ground5" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 500)
+
+[node name="Ground6" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 600)
+
+[node name="Ground7" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(0, 700)
+
+[node name="Ground8" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 100)
+
+[node name="Ground9" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 200)
+
+[node name="Ground10" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 300)
+
+[node name="Ground11" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 400)
+
+[node name="Ground12" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 500)
+
+[node name="Ground13" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 600)
+
+[node name="Ground14" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(100, 700)
+
+[node name="Ground15" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 100)
+
+[node name="Ground16" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 200)
+
+[node name="Ground17" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 300)
+
+[node name="Ground18" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 400)
+
+[node name="Ground19" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 500)
+
+[node name="Ground20" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 600)
+
+[node name="Ground21" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(200, 700)
+
+[node name="Ground22" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 100)
+
+[node name="Ground23" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 200)
+
+[node name="Ground24" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 300)
+
+[node name="Ground25" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 400)
+
+[node name="Ground26" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 500)
+
+[node name="Ground27" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 600)
+
+[node name="Ground28" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(300, 700)
+
+[node name="Ground29" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 100)
+
+[node name="Ground30" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 200)
+
+[node name="Ground31" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 300)
+
+[node name="Ground32" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 400)
+
+[node name="Ground33" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 500)
+
+[node name="Ground34" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 600)
+
+[node name="Ground35" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(400, 700)
+
+[node name="Ground36" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 100)
+
+[node name="Ground37" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 200)
+
+[node name="Ground38" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 300)
+
+[node name="Ground39" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 400)
+
+[node name="Ground40" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 500)
+
+[node name="Ground41" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 600)
+
+[node name="Ground42" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(500, 700)
+
+[node name="Ground43" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 100)
+
+[node name="Ground44" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 200)
+
+[node name="Ground45" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 300)
+
+[node name="Ground46" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 400)
+
+[node name="Ground47" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 500)
+
+[node name="Ground48" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 600)
+
+[node name="Ground49" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(600, 700)
+
+[node name="Ground50" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 100)
+
+[node name="Ground51" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 200)
+
+[node name="Ground52" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 300)
+
+[node name="Ground53" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 400)
+
+[node name="Ground54" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 500)
+
+[node name="Ground55" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 600)
+
+[node name="Ground56" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(700, 700)
+
+[node name="Ground57" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 100)
+
+[node name="Ground58" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 200)
+
+[node name="Ground59" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 300)
+
+[node name="Ground60" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 400)
+
+[node name="Ground61" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 500)
+
+[node name="Ground62" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 600)
+
+[node name="Ground63" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(800, 700)
+
+[node name="Ground64" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 100)
+
+[node name="Ground65" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 200)
+
+[node name="Ground66" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 300)
+
+[node name="Ground67" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 400)
+
+[node name="Ground68" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 500)
+
+[node name="Ground69" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 600)
+
+[node name="Ground70" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(900, 700)
+
+[node name="Ground71" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 100)
+
+[node name="Ground72" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 200)
+
+[node name="Ground73" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 300)
+
+[node name="Ground74" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 400)
+
+[node name="Ground75" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 500)
+
+[node name="Ground76" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 600)
+
+[node name="Ground77" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1000, 700)
+
+[node name="Ground78" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 100)
+
+[node name="Ground79" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 200)
+
+[node name="Ground80" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 300)
+
+[node name="Ground81" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 400)
+
+[node name="Ground82" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 500)
+
+[node name="Ground83" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 600)
+
+[node name="Ground84" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1100, 700)
+
+[node name="Ground101" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1500, 300)
+
+[node name="Ground102" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1500, 400)
+
+[node name="Ground103" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1500, 500)
+
+[node name="Ground85" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 100)
+
+[node name="Ground86" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 200)
+
+[node name="Ground87" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 300)
+
+[node name="Ground88" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 400)
+
+[node name="Ground89" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 500)
+
+[node name="Ground90" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 600)
+
+[node name="Ground91" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(-100, 700)
+
+[node name="Ground104" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1400, 300)
+
+[node name="Ground105" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1400, 400)
+
+[node name="Ground106" parent="Ground" instance=ExtResource("2_m7jmp")]
+position = Vector2(1400, 500)
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(200, 200)
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_nxogm")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+modulate = Color(0.976019, 0.445558, 0, 1)
+scale = Vector2(0.781, 0.781)
+texture = ExtResource("2_3253y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+scale = Vector2(5, 5)
+shape = SubResource("RectangleShape2D_drvgu")
+
+[node name="RayDown" type="RayCast2D" parent="Player"]
+target_position = Vector2(0, 75)
+
+[node name="RayLeft" type="RayCast2D" parent="Player"]
+target_position = Vector2(-75, 0)
+
+[node name="RayUp" type="RayCast2D" parent="Player"]
+target_position = Vector2(0, -75)
+
+[node name="RayRight" type="RayCast2D" parent="Player"]
+target_position = Vector2(75, 0)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+enabled = false
+
+[node name="Timer" type="Timer" parent="Player"]
+wait_time = 0.2
+one_shot = true
+
+[node name="Ice" parent="." instance=ExtResource("4_u3cyc")]
+position = Vector2(500, 400)
+
+[node name="Ice2" parent="." instance=ExtResource("4_u3cyc")]
+position = Vector2(500, 300)
+
+[connection signal="timeout" from="Player/Timer" to="Player" method="_on_timer_timeout"]

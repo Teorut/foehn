@@ -1,0 +1,695 @@
+[gd_scene load_steps=9 format=3 uid="uid://d21mw44lfr1xm"]
+
+[ext_resource type="PackedScene" uid="uid://bwmhiv7o6bs5v" path="res://Scenes/Prefabs/water.tscn" id="1_f6i20"]
+[ext_resource type="PackedScene" uid="uid://bjjmjv65iy3me" path="res://Scenes/Prefabs/ground.tscn" id="2_dvrgg"]
+[ext_resource type="PackedScene" uid="uid://b0ss0mi52354" path="res://Scenes/Prefabs/ice.tscn" id="3_wk15n"]
+[ext_resource type="PackedScene" uid="uid://dtddasva16bt1" path="res://Scenes/Prefabs/player.tscn" id="4_5a8oa"]
+[ext_resource type="PackedScene" uid="uid://l6nctlstumxf" path="res://Scenes/Prefabs/exit.tscn" id="5_3ntyy"]
+[ext_resource type="PackedScene" uid="uid://bne0lj48qoaou" path="res://Scenes/Prefabs/boulder.tscn" id="6_dvrgg"]
+[ext_resource type="PackedScene" uid="uid://c8t1tq6c8kici" path="res://Scenes/Prefabs/barrier.tscn" id="7_wk15n"]
+[ext_resource type="PackedScene" uid="uid://bwk1nrpdhsfq0" path="res://Scenes/Prefabs/pause.tscn" id="8_5a8oa"]
+
+[node name="level4" type="Node2D"]
+
+[node name="Water" type="Node" parent="."]
+
+[node name="water" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(100, 100)
+
+[node name="water2" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(200, 100)
+
+[node name="water3" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(300, 100)
+
+[node name="water4" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 100)
+
+[node name="water5" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(500, 100)
+
+[node name="water6" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(600, 100)
+
+[node name="water7" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 100)
+
+[node name="water8" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(800, 100)
+
+[node name="water14" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1400, 100)
+
+[node name="water15" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 100)
+
+[node name="water16" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 100)
+
+[node name="water17" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 100)
+
+[node name="water18" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(100, 200)
+
+[node name="water19" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(200, 200)
+
+[node name="water20" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(300, 200)
+
+[node name="water21" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 200)
+
+[node name="water22" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 200)
+
+[node name="water25" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(800, 200)
+
+[node name="water26" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(900, 200)
+
+[node name="water30" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(100, 900)
+
+[node name="water31" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(200, 900)
+
+[node name="water32" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(300, 900)
+
+[node name="water33" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 900)
+
+[node name="water37" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(800, 900)
+
+[node name="water38" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(900, 900)
+
+[node name="water39" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 900)
+
+[node name="water40" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 900)
+
+[node name="water43" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 700)
+
+[node name="water44" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 900)
+
+[node name="water45" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 900)
+
+[node name="water46" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 900)
+
+[node name="water47" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 300)
+
+[node name="water48" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(800, 300)
+
+[node name="water49" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(900, 300)
+
+[node name="water53" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 400)
+
+[node name="water54" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(500, 400)
+
+[node name="water55" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(600, 400)
+
+[node name="water56" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 400)
+
+[node name="water57" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(800, 400)
+
+[node name="water58" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(900, 400)
+
+[node name="water59" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 400)
+
+[node name="water62" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1300, 400)
+
+[node name="water63" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1400, 400)
+
+[node name="water64" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 400)
+
+[node name="water65" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 400)
+
+[node name="water66" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 400)
+
+[node name="water70" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 800)
+
+[node name="water74" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 800)
+
+[node name="water75" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 800)
+
+[node name="water76" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 700)
+
+[node name="water77" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(500, 700)
+
+[node name="water79" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 700)
+
+[node name="water80" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 700)
+
+[node name="water81" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 700)
+
+[node name="water82" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 600)
+
+[node name="water83" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(500, 600)
+
+[node name="water84" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(600, 600)
+
+[node name="water85" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 600)
+
+[node name="water86" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 600)
+
+[node name="water87" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 600)
+
+[node name="water88" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(400, 500)
+
+[node name="water89" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(500, 500)
+
+[node name="water90" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(600, 500)
+
+[node name="water91" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 500)
+
+[node name="water92" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1600, 500)
+
+[node name="water93" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1700, 500)
+
+[node name="water94" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(100, 300)
+
+[node name="water95" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(100, 400)
+
+[node name="water97" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 500)
+
+[node name="water99" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(900, 100)
+
+[node name="water100" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1300, 500)
+
+[node name="water101" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1400, 500)
+
+[node name="water102" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 600)
+
+[node name="water103" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 600)
+
+[node name="water104" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 600)
+
+[node name="water105" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 600)
+
+[node name="water106" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1300, 600)
+
+[node name="water107" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1400, 600)
+
+[node name="water108" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 700)
+
+[node name="water109" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 700)
+
+[node name="water112" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(700, 800)
+
+[node name="water23" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(800, 800)
+
+[node name="water24" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 900)
+
+[node name="water9" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(100, 800)
+
+[node name="water10" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(200, 800)
+
+[node name="water11" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(300, 800)
+
+[node name="water12" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(300, 700)
+
+[node name="water13" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(200, 700)
+
+[node name="water27" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1500, 800)
+
+[node name="water28" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1300, 100)
+
+[node name="water29" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 100)
+
+[node name="water34" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 100)
+
+[node name="water35" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 200)
+
+[node name="water36" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 200)
+
+[node name="water41" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 200)
+
+[node name="water50" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1000, 300)
+
+[node name="water51" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 300)
+
+[node name="water52" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 300)
+
+[node name="water110" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 100)
+
+[node name="water67" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 400)
+
+[node name="water68" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 400)
+
+[node name="water111" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1100, 500)
+
+[node name="water113" parent="Water" instance=ExtResource("1_f6i20")]
+position = Vector2(1200, 500)
+
+[node name="Ground" type="Node" parent="."]
+
+[node name="Ground53" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(300, 500)
+
+[node name="Ground57" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(300, 600)
+
+[node name="Ground74" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(200, 500)
+
+[node name="Ground76" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(200, 600)
+
+[node name="Ground77" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(100, 500)
+
+[node name="Ground95" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(100, 600)
+
+[node name="Ground96" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(100, 700)
+
+[node name="Ground54" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(300, 300)
+
+[node name="Ground58" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(300, 400)
+
+[node name="Ground75" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(200, 300)
+
+[node name="Ground79" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(200, 400)
+
+[node name="Ground2" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(400, 300)
+
+[node name="Ground3" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(500, 300)
+
+[node name="Ground" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(600, 300)
+
+[node name="Ground4" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(800, 500)
+
+[node name="Ground5" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(900, 500)
+
+[node name="Ground6" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(800, 600)
+
+[node name="Ground7" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(900, 600)
+
+[node name="Ground8" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(800, 700)
+
+[node name="Ground9" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(900, 700)
+
+[node name="Ground11" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(900, 800)
+
+[node name="Ground55" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1100, 800)
+
+[node name="Ground80" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1000, 800)
+
+[node name="Ground12" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1200, 800)
+
+[node name="Ground13" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1300, 800)
+
+[node name="Ground14" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1400, 800)
+
+[node name="Ground15" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1400, 700)
+
+[node name="Ground18" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1300, 200)
+
+[node name="Ground19" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1400, 200)
+
+[node name="Ground20" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1300, 300)
+
+[node name="Ground21" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1400, 300)
+
+[node name="Ground22" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1500, 200)
+
+[node name="Ground23" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1600, 200)
+
+[node name="Ground24" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1500, 300)
+
+[node name="Ground25" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1600, 300)
+
+[node name="Ground26" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1700, 200)
+
+[node name="Ground27" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1700, 300)
+
+[node name="Ground10" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(600, 200)
+
+[node name="Ground16" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(500, 200)
+
+[node name="Ground28" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1400, 900)
+
+[node name="Ground30" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1300, 700)
+
+[node name="Ground31" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1200, 700)
+
+[node name="Ground29" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(600, 900)
+
+[node name="Ground32" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(600, 800)
+
+[node name="Ground33" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(600, 700)
+
+[node name="Ground34" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(700, 500)
+
+[node name="Ground35" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(500, 900)
+
+[node name="Ground36" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(700, 900)
+
+[node name="Ground37" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(500, 800)
+
+[node name="Ground17" parent="Ground" instance=ExtResource("2_dvrgg")]
+position = Vector2(1300, 900)
+
+[node name="Ice" type="Node" parent="."]
+
+[node name="Ice" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(200, 400)
+
+[node name="Ice2" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(300, 400)
+
+[node name="Ice4" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(800, 600)
+
+[node name="Ice5" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(1100, 800)
+
+[node name="Ice6" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(900, 600)
+
+[node name="Ice9" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(600, 800)
+
+[node name="Ice10" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(600, 900)
+
+[node name="Ice3" parent="Ice" instance=ExtResource("3_wk15n")]
+position = Vector2(500, 900)
+
+[node name="Boulders" type="Node" parent="."]
+
+[node name="boulder" parent="Boulders" instance=ExtResource("6_dvrgg")]
+position = Vector2(1500, 200)
+
+[node name="boulder2" parent="Boulders" instance=ExtResource("6_dvrgg")]
+position = Vector2(1500, 300)
+
+[node name="player" parent="." instance=ExtResource("4_5a8oa")]
+z_index = 0
+position = Vector2(200, 600)
+
+[node name="Exits" type="Node" parent="."]
+
+[node name="exit" parent="Exits" instance=ExtResource("5_3ntyy")]
+position = Vector2(0, 600)
+exit_scene = 3
+
+[node name="exit2" parent="Exits" instance=ExtResource("5_3ntyy")]
+position = Vector2(1800, 200)
+exit_scene = 5
+
+[node name="exit3" parent="Exits" instance=ExtResource("5_3ntyy")]
+position = Vector2(0, 500)
+exit_scene = 3
+
+[node name="exit4" parent="Exits" instance=ExtResource("5_3ntyy")]
+position = Vector2(0, 700)
+exit_scene = 3
+
+[node name="exit5" parent="Exits" instance=ExtResource("5_3ntyy")]
+position = Vector2(1800, 300)
+exit_scene = 5
+
+[node name="barriers" type="Node" parent="."]
+
+[node name="barrier" parent="barriers" instance=ExtResource("7_wk15n")]
+
+[node name="barrier2" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(100, 0)
+
+[node name="barrier3" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(200, 0)
+
+[node name="barrier4" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(400, 0)
+
+[node name="barrier5" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(500, 0)
+
+[node name="barrier6" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(300, 0)
+
+[node name="barrier7" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(600, 0)
+
+[node name="barrier8" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(700, 0)
+
+[node name="barrier9" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(800, 0)
+
+[node name="barrier10" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(900, 0)
+
+[node name="barrier11" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1000, 0)
+
+[node name="barrier12" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1100, 0)
+
+[node name="barrier13" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1200, 0)
+
+[node name="barrier14" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1300, 0)
+
+[node name="barrier15" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1400, 0)
+
+[node name="barrier16" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1500, 0)
+
+[node name="barrier17" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1600, 0)
+
+[node name="barrier18" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1700, 0)
+
+[node name="barrier19" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 0)
+
+[node name="barrier20" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 1000)
+
+[node name="barrier21" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(100, 1000)
+
+[node name="barrier22" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(200, 1000)
+
+[node name="barrier23" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(300, 1000)
+
+[node name="barrier24" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(400, 1000)
+
+[node name="barrier25" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(500, 1000)
+
+[node name="barrier26" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(600, 1000)
+
+[node name="barrier27" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(700, 1000)
+
+[node name="barrier28" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(800, 1000)
+
+[node name="barrier29" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(900, 1000)
+
+[node name="barrier30" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1000, 1000)
+
+[node name="barrier31" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1100, 1000)
+
+[node name="barrier32" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1200, 1000)
+
+[node name="barrier33" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1300, 1000)
+
+[node name="barrier34" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1400, 1000)
+
+[node name="barrier35" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1500, 1000)
+
+[node name="barrier36" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1600, 1000)
+
+[node name="barrier37" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1700, 1000)
+
+[node name="barrier38" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 1000)
+
+[node name="barrier39" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 300)
+
+[node name="barrier40" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 200)
+
+[node name="barrier41" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 100)
+
+[node name="barrier42" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 800)
+
+[node name="barrier43" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 400)
+
+[node name="barrier44" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(0, 900)
+
+[node name="barrier45" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 700)
+
+[node name="barrier46" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 100)
+
+[node name="barrier47" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 500)
+
+[node name="barrier48" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 800)
+
+[node name="barrier49" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 400)
+
+[node name="barrier50" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 600)
+
+[node name="barrier51" parent="barriers" instance=ExtResource("7_wk15n")]
+position = Vector2(1800, 900)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(900, 500)
+zoom = Vector2(0.95, 0.9)
+
+[node name="pause" parent="." instance=ExtResource("8_5a8oa")]

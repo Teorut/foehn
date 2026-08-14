@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtddasva16bt1"]
+
+[ext_resource type="Script" uid="uid://ynl53bcg354a" path="res://player.gd" id="1_pv3ct"]
+[ext_resource type="Texture2D" uid="uid://bts1yocclkyxq" path="res://icon.svg" id="1_sfbl0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pv3ct"]
+
+[node name="player" type="CharacterBody2D" groups=["Player"]]
+script = ExtResource("1_pv3ct")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.976019, 0.445558, 0, 1)
+scale = Vector2(0.781, 0.781)
+texture = ExtResource("1_sfbl0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(5, 5)
+shape = SubResource("RectangleShape2D_pv3ct")
+
+[node name="RayDown" type="RayCast2D" parent="."]
+target_position = Vector2(0, 75)
+
+[node name="RayLeft" type="RayCast2D" parent="."]
+target_position = Vector2(-75, 0)
+
+[node name="RayUp" type="RayCast2D" parent="."]
+target_position = Vector2(0, -75)
+
+[node name="RayRight" type="RayCast2D" parent="."]
+target_position = Vector2(75, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+enabled = false
+zoom = Vector2(0.944, 0.889)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtddasva16bt1"]
+
+[ext_resource type="Script" uid="uid://ynl53bcg354a" path="res://scripts/player.gd" id="1_p5qvm"]
+[ext_resource type="Texture2D" uid="uid://dvo8qtko4xlyi" path="res://Bilder/textures/playerDown.png" id="2_pv3ct"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pv3ct"]
+
+[node name="player" type="CharacterBody2D" groups=["Player"]]
+z_index = 3
+script = ExtResource("1_p5qvm")
+
+[node name="sprite" type="Sprite2D" parent="."]
+z_index = 4
+scale = Vector2(6.25, 6.25)
+texture = ExtResource("2_pv3ct")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_pv3ct")
+
+[node name="RayDown" type="RayCast2D" parent="."]
+target_position = Vector2(0, 75)
+
+[node name="RayLeft" type="RayCast2D" parent="."]
+target_position = Vector2(-75, 0)
+
+[node name="RayUp" type="RayCast2D" parent="."]
+target_position = Vector2(0, -75)
+
+[node name="RayRight" type="RayCast2D" parent="."]
+target_position = Vector2(75, 0)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjjmjv65iy3me"]
+
+[ext_resource type="Texture2D" uid="uid://d0psr3t5l4r1l" path="res://Bilder/textures/ground.png" id="1_7n3xy"]
+[ext_resource type="Texture2D" uid="uid://cvpccxgb3hdox" path="res://Bilder/textures/IceBottom.png" id="1_g8my8"]
+
+[node name="Ground" type="Node2D"]
+z_index = -1
+
+[node name="side" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(0, 62.5)
+scale = Vector2(6.25, 6.25)
+texture = ExtResource("1_g8my8")
+
+[node name="top" type="Sprite2D" parent="."]
+z_index = 2
+scale = Vector2(6.25, 6.25)
+texture = ExtResource("1_7n3xy")

@@ -1,0 +1,669 @@
+[gd_scene load_steps=8 format=3 uid="uid://cjo4ru7wnct4e"]
+
+[ext_resource type="PackedScene" uid="uid://bwmhiv7o6bs5v" path="res://Scenes/Prefabs/water.tscn" id="1_v36qu"]
+[ext_resource type="PackedScene" uid="uid://bjjmjv65iy3me" path="res://Scenes/Prefabs/ground.tscn" id="2_cggpd"]
+[ext_resource type="PackedScene" uid="uid://b0ss0mi52354" path="res://Scenes/Prefabs/ice.tscn" id="3_055b2"]
+[ext_resource type="PackedScene" uid="uid://dtddasva16bt1" path="res://Scenes/Prefabs/player.tscn" id="4_2mgoq"]
+[ext_resource type="PackedScene" uid="uid://l6nctlstumxf" path="res://Scenes/Prefabs/exit.tscn" id="5_uhnj4"]
+[ext_resource type="PackedScene" uid="uid://c8t1tq6c8kici" path="res://Scenes/Prefabs/barrier.tscn" id="6_cggpd"]
+[ext_resource type="PackedScene" uid="uid://bwk1nrpdhsfq0" path="res://Scenes/Prefabs/pause.tscn" id="7_055b2"]
+
+[node name="level2" type="Node2D"]
+
+[node name="Water" type="Node" parent="."]
+
+[node name="Water2" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(200, 100)
+
+[node name="Water3" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(100, 100)
+
+[node name="Water" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(300, 100)
+
+[node name="Water4" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(500, 100)
+
+[node name="Water5" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(400, 100)
+
+[node name="Water6" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(600, 100)
+
+[node name="Water7" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 100)
+
+[node name="Water8" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 100)
+
+[node name="Water10" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1100, 100)
+
+[node name="Water12" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1200, 100)
+
+[node name="Water13" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1400, 100)
+
+[node name="Water14" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1300, 100)
+
+[node name="Water15" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1500, 100)
+
+[node name="Water16" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1700, 100)
+
+[node name="Water17" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1600, 100)
+
+[node name="Water18" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(200, 900)
+
+[node name="Water19" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(100, 900)
+
+[node name="Water20" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(300, 900)
+
+[node name="Water21" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(500, 900)
+
+[node name="Water22" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(400, 900)
+
+[node name="Water23" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(600, 900)
+
+[node name="Water24" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 900)
+
+[node name="Water25" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 900)
+
+[node name="Water27" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1100, 900)
+
+[node name="Water29" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1200, 900)
+
+[node name="Water30" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1400, 900)
+
+[node name="Water31" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1300, 900)
+
+[node name="Water32" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1500, 900)
+
+[node name="Water33" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1700, 900)
+
+[node name="Water34" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1600, 900)
+
+[node name="Water35" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(100, 200)
+
+[node name="Water36" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(100, 300)
+
+[node name="Water40" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(100, 700)
+
+[node name="Water41" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(100, 800)
+
+[node name="Water42" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 200)
+
+[node name="Water44" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 200)
+
+[node name="Water45" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 300)
+
+[node name="Water46" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 400)
+
+[node name="Water47" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 300)
+
+[node name="Water48" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 800)
+
+[node name="Water50" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 800)
+
+[node name="Water51" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 700)
+
+[node name="Water52" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 600)
+
+[node name="Water53" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 700)
+
+[node name="Water54" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(900, 500)
+
+[node name="Water55" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1700, 200)
+
+[node name="Water56" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1700, 300)
+
+[node name="Water57" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1700, 800)
+
+[node name="Water58" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1700, 700)
+
+[node name="Water59" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1500, 200)
+
+[node name="Water60" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1500, 800)
+
+[node name="water" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1100, 200)
+
+[node name="water3" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 400)
+
+[node name="water4" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 500)
+
+[node name="water5" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1000, 600)
+
+[node name="water7" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1100, 800)
+
+[node name="Water37" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(300, 800)
+
+[node name="Water38" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(200, 800)
+
+[node name="Water39" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(400, 800)
+
+[node name="Water61" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(200, 700)
+
+[node name="Water62" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1400, 800)
+
+[node name="Water63" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1600, 800)
+
+[node name="Water64" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1400, 200)
+
+[node name="Water65" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1600, 200)
+
+[node name="water8" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1100, 300)
+
+[node name="water9" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1100, 700)
+
+[node name="Water9" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(700, 100)
+
+[node name="Water11" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(800, 100)
+
+[node name="Water26" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(700, 900)
+
+[node name="Water28" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(800, 900)
+
+[node name="Water43" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(300, 200)
+
+[node name="Water49" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(200, 200)
+
+[node name="Water66" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(400, 200)
+
+[node name="Water67" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(200, 300)
+
+[node name="water2" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1200, 300)
+
+[node name="water6" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1200, 700)
+
+[node name="water10" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1200, 200)
+
+[node name="water11" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1300, 200)
+
+[node name="water12" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1600, 300)
+
+[node name="water13" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1200, 800)
+
+[node name="water14" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1300, 800)
+
+[node name="water15" parent="Water" instance=ExtResource("1_v36qu")]
+position = Vector2(1600, 700)
+
+[node name="Ground" type="Node" parent="."]
+
+[node name="Ground6" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1300, 300)
+
+[node name="Ground7" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1400, 300)
+
+[node name="Ground8" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1500, 300)
+
+[node name="Ground9" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1200, 400)
+
+[node name="Ground10" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1300, 400)
+
+[node name="Ground11" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1400, 400)
+
+[node name="Ground12" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1500, 400)
+
+[node name="Ground13" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1200, 500)
+
+[node name="Ground14" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1300, 500)
+
+[node name="Ground15" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1400, 500)
+
+[node name="Ground16" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1500, 500)
+
+[node name="Ground17" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1200, 600)
+
+[node name="Ground18" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1300, 600)
+
+[node name="Ground19" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1400, 600)
+
+[node name="Ground20" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1500, 600)
+
+[node name="Ground22" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1300, 700)
+
+[node name="Ground23" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1400, 700)
+
+[node name="Ground24" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1500, 700)
+
+[node name="Ground36" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1700, 400)
+
+[node name="Ground38" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1700, 500)
+
+[node name="Ground40" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1700, 600)
+
+[node name="Ground47" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 200)
+
+[node name="Ground48" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 200)
+
+[node name="Ground49" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(300, 300)
+
+[node name="Ground50" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(400, 300)
+
+[node name="Ground51" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 300)
+
+[node name="Ground52" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 300)
+
+[node name="Ground53" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(300, 400)
+
+[node name="Ground54" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(400, 400)
+
+[node name="Ground55" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 400)
+
+[node name="Ground56" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 400)
+
+[node name="Ground57" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(300, 500)
+
+[node name="Ground58" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(400, 500)
+
+[node name="Ground59" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 500)
+
+[node name="Ground60" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 500)
+
+[node name="Ground61" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(300, 600)
+
+[node name="Ground62" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(400, 600)
+
+[node name="Ground63" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 600)
+
+[node name="Ground64" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 600)
+
+[node name="Ground65" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(300, 700)
+
+[node name="Ground66" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(400, 700)
+
+[node name="Ground67" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 700)
+
+[node name="Ground68" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 700)
+
+[node name="Ground71" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(500, 800)
+
+[node name="Ground72" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(600, 800)
+
+[node name="Ground74" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(200, 400)
+
+[node name="Ground76" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(200, 500)
+
+[node name="Ground78" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(200, 600)
+
+[node name="Ground77" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(100, 400)
+
+[node name="Ground95" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(100, 500)
+
+[node name="Ground96" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(100, 600)
+
+[node name="Ground31" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1100, 400)
+
+[node name="Ground33" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1100, 500)
+
+[node name="Ground41" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1100, 600)
+
+[node name="Ground43" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1600, 400)
+
+[node name="Ground45" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1600, 500)
+
+[node name="Ground46" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(1600, 600)
+
+[node name="Ground69" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 200)
+
+[node name="Ground70" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 200)
+
+[node name="Ground73" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 300)
+
+[node name="Ground75" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 300)
+
+[node name="Ground79" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 400)
+
+[node name="Ground80" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 400)
+
+[node name="Ground81" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 500)
+
+[node name="Ground82" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 500)
+
+[node name="Ground83" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 600)
+
+[node name="Ground84" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 600)
+
+[node name="Ground85" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 700)
+
+[node name="Ground86" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 700)
+
+[node name="Ground87" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(700, 800)
+
+[node name="Ground88" parent="Ground" instance=ExtResource("2_cggpd")]
+position = Vector2(800, 800)
+
+[node name="Ice" type="Node" parent="."]
+
+[node name="Ice" parent="Ice" instance=ExtResource("3_055b2")]
+position = Vector2(500, 500)
+
+[node name="Ice2" parent="Ice" instance=ExtResource("3_055b2")]
+position = Vector2(600, 500)
+
+[node name="player" parent="." instance=ExtResource("4_2mgoq")]
+z_index = 0
+position = Vector2(200, 500)
+
+[node name="Exits" type="Node" parent="."]
+
+[node name="exit" parent="Exits" instance=ExtResource("5_uhnj4")]
+position = Vector2(0, 500)
+exit_scene = 1
+
+[node name="exit2" parent="Exits" instance=ExtResource("5_uhnj4")]
+position = Vector2(1800, 500)
+exit_scene = 3
+
+[node name="exit3" parent="Exits" instance=ExtResource("5_uhnj4")]
+position = Vector2(0, 400)
+exit_scene = 1
+
+[node name="exit4" parent="Exits" instance=ExtResource("5_uhnj4")]
+position = Vector2(0, 600)
+exit_scene = 1
+
+[node name="exit5" parent="Exits" instance=ExtResource("5_uhnj4")]
+position = Vector2(1800, 600)
+exit_scene = 3
+
+[node name="exit6" parent="Exits" instance=ExtResource("5_uhnj4")]
+position = Vector2(1800, 400)
+exit_scene = 3
+
+[node name="wall" type="Node" parent="."]
+
+[node name="wall" parent="wall" instance=ExtResource("6_cggpd")]
+
+[node name="wall2" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(100, 0)
+
+[node name="wall3" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(200, 0)
+
+[node name="wall5" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(400, 0)
+
+[node name="wall6" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(500, 0)
+
+[node name="wall4" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(300, 0)
+
+[node name="wall7" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(600, 0)
+
+[node name="wall8" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(700, 0)
+
+[node name="wall9" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(800, 0)
+
+[node name="wall10" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(900, 0)
+
+[node name="wall11" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1000, 0)
+
+[node name="wall12" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1100, 0)
+
+[node name="wall13" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1200, 0)
+
+[node name="wall14" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1300, 0)
+
+[node name="wall15" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1400, 0)
+
+[node name="wall16" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1500, 0)
+
+[node name="wall17" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1600, 0)
+
+[node name="wall18" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1700, 0)
+
+[node name="wall19" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 0)
+
+[node name="wall20" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 1000)
+
+[node name="wall21" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(100, 1000)
+
+[node name="wall22" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(200, 1000)
+
+[node name="wall23" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(300, 1000)
+
+[node name="wall24" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(400, 1000)
+
+[node name="wall25" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(500, 1000)
+
+[node name="wall26" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(600, 1000)
+
+[node name="wall27" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(700, 1000)
+
+[node name="wall28" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(800, 1000)
+
+[node name="wall29" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(900, 1000)
+
+[node name="wall30" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1000, 1000)
+
+[node name="wall31" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1100, 1000)
+
+[node name="wall32" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1200, 1000)
+
+[node name="wall33" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1300, 1000)
+
+[node name="wall34" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1400, 1000)
+
+[node name="wall35" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1500, 1000)
+
+[node name="wall36" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1600, 1000)
+
+[node name="wall37" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1700, 1000)
+
+[node name="wall38" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 1000)
+
+[node name="wall44" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 300)
+
+[node name="wall45" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 200)
+
+[node name="wall46" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 100)
+
+[node name="wall49" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 800)
+
+[node name="wall50" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 700)
+
+[node name="wall52" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(0, 900)
+
+[node name="wall54" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 300)
+
+[node name="wall55" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 200)
+
+[node name="wall56" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 100)
+
+[node name="wall58" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 800)
+
+[node name="wall59" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 700)
+
+[node name="wall61" parent="wall" instance=ExtResource("6_cggpd")]
+position = Vector2(1800, 900)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(900, 500)
+zoom = Vector2(0.95, 0.9)
+
+[node name="pause" parent="." instance=ExtResource("7_055b2")]

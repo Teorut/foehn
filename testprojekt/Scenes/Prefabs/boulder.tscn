@@ -1,0 +1,95 @@
+[gd_scene load_steps=8 format=3 uid="uid://bne0lj48qoaou"]
+
+[ext_resource type="Script" uid="uid://dhgkpj1a3k7n7" path="res://scripts/boulder.gd" id="1_2t8kj"]
+[ext_resource type="Texture2D" uid="uid://d4iev3av6ye8b" path="res://Bilder/textures/boulder.png" id="2_2t8kj"]
+[ext_resource type="Texture2D" uid="uid://cxyt5lgs5a52r" path="res://Bilder/textures/boulderGlow.png" id="3_b0n2s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2t8kj"]
+
+[sub_resource type="Animation" id="Animation_2t8kj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("sprite:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_b0n2s"]
+resource_name = "Sink"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("sprite:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 25)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"delBlock"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y5ljf"]
+_data = {
+&"RESET": SubResource("Animation_2t8kj"),
+&"Sink": SubResource("Animation_b0n2s")
+}
+
+[node name="boulder" type="StaticBody2D"]
+script = ExtResource("1_2t8kj")
+isPushable = true
+
+[node name="sprite" type="Sprite2D" parent="."]
+modulate = Color(0.604656, 0.796091, 0.845291, 1)
+z_index = 2
+scale = Vector2(6.25, 6.25)
+texture = ExtResource("2_2t8kj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_2t8kj")
+
+[node name="RayDown" type="RayCast2D" parent="."]
+target_position = Vector2(0, 75)
+
+[node name="RayLeft" type="RayCast2D" parent="."]
+target_position = Vector2(-75, 0)
+
+[node name="RayUp" type="RayCast2D" parent="."]
+target_position = Vector2(0, -75)
+
+[node name="RayRight" type="RayCast2D" parent="."]
+target_position = Vector2(75, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_y5ljf")
+}
+
+[node name="glowBorder" type="Sprite2D" parent="."]
+visible = false
+z_index = 1
+scale = Vector2(6.25, 6.25)
+texture = ExtResource("3_b0n2s")

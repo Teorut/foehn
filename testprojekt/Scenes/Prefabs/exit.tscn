@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://l6nctlstumxf"]
+
+[ext_resource type="Script" uid="uid://doempogjcnpbl" path="res://scripts/exit.gd" id="1_mxuf8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_72mbd"]
+
+[node name="exit" type="Area2D" groups=["exit"]]
+script = ExtResource("1_mxuf8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_72mbd")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
